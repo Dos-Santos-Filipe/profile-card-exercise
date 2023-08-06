@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Oxanium:wght@300;400;700&display=swap');
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'kumbh Sans', sans-serif;
+    font-size: 18px
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .profile img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card .numbers {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card .profile p,
+.numbers .info .counter {
+    font-weight: 700;
+}
+
+.card .profile .age,
+.card .profile .city,
+.numbers .info .counter-type {
+    color: var(--text-color);
+}
